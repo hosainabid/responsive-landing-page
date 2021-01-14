@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head_style{
+    background-color: #FFF9F4 !important;
+}
+
+.banner_style{
+    width: 78% !important;
+}
+
+.button_bg{
+    padding: 20px 35px;
+    background-image: linear-gradient(180deg, #3D4FF2, #3644C3);
+    border-radius: 14px;
+}
+.font_color{
+    color: #FA804C;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #363958;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: #FA804C;
+    font-weight: bold;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+}
+p{
+    font-family: 'Roboto', sans-serif;  
+}
+.footer_card{
+    background: none;
+    border: none;
+}
+.product{
+    border: none;
+    border-radius: 10px;
+}
+.product_img{
+    background: rgb(241, 241, 241);
+    border-radius: 15px;
+}
+.rounded{
+    border-radius: 15px !important;
+}
+.icon_box{
+    border: none;
+}
+
+.img_resp{
+    width: 100%;
+}
+.form_field{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+}
+.submit_btn{
+    padding: 10px 25px;
+}
+.newsletter_bg{
+    background: #FFF9F4 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .img_resp{
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+    h5{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+  }
+
+  
+@media only screen and (max-width: 991px) {
+  }
